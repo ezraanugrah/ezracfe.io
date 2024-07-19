@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimoni</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="index.html">
+        <img src="Asset/Logo.jpg" alt="ngopiAja!! Logo" height="30">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" id="homeNav">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown" id="rekomendasiNav">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Rekomendasi
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="hg.html">Holy Grounds Coffee and Community</a>
+                    <a class="dropdown-item" href="linus.html">Linus Coffe</a>
+                    <a class="dropdown-item" href="ekologi.html">Ekologi desk & Coffe</a>
+                    <a class="dropdown-item" href="wistara.html">Wistara Coffe</a>
+                    <a class="dropdown-item" href="good.html">Good luck & Space</a>
+                </div>
+            </li>
+            <li class="nav-item" id="testimoniNav">
+                <a class="nav-link" href="testimoni.html">Testimoni</a>
+            </li>
+            <li class="nav-item" id="aboutNav">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+    <!-- Content -->
+    <div class="container mt-5 pt-5">
+        <h1 class="text-center mb-4">Testimoni</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg.jpg" class="card-img-top" alt="HolyGrounds">
+                    <div class="card-body">
+                        <h5 class="card-title">Holy Grounds Coffee and Community</h5>
+                        <p class="card-text">Tempat yang sangat nyaman untuk nugas dan ngopi.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalHg">
+                            Lihat Testimony
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="Asset/Testimoni 5 coffeshop/Linus.jpg" class="card-img-top" alt="Linus">
+                    <div class="card-body">
+                        <h5 class="card-title">Linus Coffee</h5>
+                        <p class="card-text">Kopi enak, suasana asik buat kerja.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalLinus">
+                            Lihat Testimony
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi.jpg" class="card-img-top" alt="Ekologi">
+                    <div class="card-body">
+                        <h5 class="card-title">Ekologi desk & Coffee</h5>
+                        <p class="card-text">Design interiornya keren, bikin betah lama-lama.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalEkologi">
+                            Lihat Testimony
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistara.jpg" class="card-img-top" alt="Wistara">
+                    <div class="card-body">
+                        <h5 class="card-title">Wistara Coffee</h5>
+                        <p class="card-text">Atmosfernya nyaman untuk bekerja dan bersantai.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalWistara">
+                            Lihat Testimony
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="Asset/Testimoni 5 coffeshop/Good.jpg" class="card-img-top" alt="Good luck & Space">
+                    <div class="card-body">
+                        <h5 class="card-title">Good luck & Space</h5>
+                        <p class="card-text">Tempat yang cocok untuk berkumpul dan bekerja.</p>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalGood">
+                            Lihat Testimony
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="modalHg" tabindex="-1" role="dialog" aria-labelledby="modalHgLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalHgLabel">Holy Grounds Coffee and Community</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/1.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/2.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/3.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/4.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/5.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/6.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/7.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/8.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/9.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Hg/10.jpg" class="img-fluid" alt="HolyGrounds">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalLinus" tabindex="-1" role="dialog" aria-labelledby="modalLinusLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalLinusLabel">Linus Coffee</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/1.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/2.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/3.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/4.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/5.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/6.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/7.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/8.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/9.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Linuscoffe/10.jpg" class="img-fluid" alt="Linus">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalEkologi" tabindex="-1" role="dialog" aria-labelledby="modalEkologiLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalEkologiLabel">Ekologi desk & Coffee</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/1.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/2.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/3.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/4.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/5.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/6.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/7.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/8.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/9.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Ekologi desk/10.jpg" class="img-fluid" alt="Ekologi">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalWistara" tabindex="-1" role="dialog" aria-labelledby="modalWistaraLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalWistaraLabel">Wistara Coffee</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/1.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/2.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/3.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/4.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/5.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/6.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/7.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/8.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/9.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Wistaracoffe/10.jpg" class="img-fluid" alt="Wistara">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalGood" tabindex="-1" role="dialog" aria-labelledby="modalGoodLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalGoodLabel">Good luck & Space</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/1.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/2.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/3.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/4.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/5.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/6.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/7.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/8.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/9.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-body">
+                    <img src="Asset/Testimoni 5 coffeshop/Goodluck/10.jpg" class="img-fluid" alt="Good luck & Space">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Form Section -->
+<div class="container mt-5 pt-5">
+    <div class="form-section">
+        <h2 class="form-title text-center">Tinggalkan Pesan Anda</h2>
+        <form action="" method ="">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn submit-btn">Kirim Pesan</button>
+            </div>
+        </form>
+    </div>
+</div>
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
